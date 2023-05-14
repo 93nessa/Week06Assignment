@@ -1,13 +1,10 @@
 const expect = chai.expect
 const assert = chai.assert
-const{Deck, Player, Card} = require('../Week06Assignment/WarAssignment');
+const{Deck, Player, Card} = require('./WarAssignment/WarAssignment.js');
 
 
 
 
-let deck = new Deck();
-deck.buildDeck();
-deck.shuffledDeck();
 
 describe(`Creating  a new player`, function(){
    describe('Player', function(){
